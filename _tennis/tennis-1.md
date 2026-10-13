@@ -2,6 +2,15 @@
 title: ""
 collection: tennis
 highlights:
+  - id: queen-wen-indian-wells-2026
+    title: "2026 · Indian Wells"
+    caption: "Watching Queen Wen (Qinwen Zheng)."
+    photos:
+      - path: /images/queenwen_iw.jpeg
+        alt: "Watching Qinwen Zheng play at Indian Wells in 2026"
+        width: 1241
+        height: 614
+
   - id: indian-wells-2026
     title: "2026 · Indian Wells"
     caption: "Reunited with Emma Raducanu."
@@ -21,7 +30,7 @@ highlights:
         height: 1024
 
   - id: china-open-2024
-    title: "2024 · China Open"
+    title: "2024 · Beijing"
     caption: "Watching Queen Wen (Qinwen Zheng)."
     photos:
       - path: /images/chinaopen.jpeg
