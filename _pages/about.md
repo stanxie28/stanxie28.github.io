@@ -23,6 +23,14 @@ redirect_from:
 .about-content .coauthors { color: #000000; font-size: 0.9em; }
 .about-content .paper-resources { font-size: 0.86em; line-height: 1.75; }
 .about-content .paper-resources li { margin-bottom: 0; }
+/* Compact paper details, with aligned funding names. */
+.about-content .paper-notes { margin: 0.3em 0 0; font-size: 0.86em; line-height: 1.5; }
+.about-content .paper-notes > li { margin-bottom: 0.2em; padding-left: 0.1em; }
+.about-content .paper-notes > li:last-child { margin-bottom: 0; }
+.about-content .paper-notes p { margin: 0; }
+.about-content .paper-funding { display: grid; grid-template-columns: max-content minmax(0, 1fr); column-gap: 0.4em; align-items: baseline; }
+.about-content .funding-institutions { min-width: 0; }
+
 /* Research highlights: two columns where the article has room. */
 .about-content .research-highlights { container: research-highlights / inline-size; }
 .about-content .research-highlights > h2 { text-align: center; border-top: 1px solid #e1e5e8; border-bottom: 0; padding: 1.1em 0 0; margin-bottom: 1.4em; }
@@ -43,6 +51,7 @@ redirect_from:
 }
 
 @media (max-width: 600px) {
+  .about-content .paper-funding { grid-template-columns: minmax(0, 1fr); row-gap: 0.1em; }
   .about-content h2 { font-size: 1.4em; }
   .about-content .highlights-grid { grid-template-columns: minmax(0, 1fr); }
   .about-content .research-highlight { grid-template-rows: auto auto 1fr; }
@@ -71,30 +80,36 @@ My research interests include political economy, environmental economics, and de
 
 - **Corruption and International Competition for Critical Minerals: Evidence from the DRC's Copper-Cobalt Sector**<br>
   <span class="coauthors">with Kaixin Wang</span>
-  - Supported by Energy Policy Institute at the University of Chicago (EPIC-China)
-  - Draft coming soon.
+  - <span class="paper-funding"><span>Supported by</span><span class="funding-institutions">Energy Policy Institute at the University of Chicago (EPIC-China)</span></span>
+  - *Draft coming soon.*
+  {: .paper-notes}
 
 - **The Moral Economy of Supervisor Kickbacks and Its Significance for Corruption**<br>
   <span class="coauthors">with Raul Sanchez de la Sierra, Kristof Titeca, Aimable A. Lameke, and Albert Malukisa Nkuku</span>
-  - Draft available upon request.
+  - *Draft available upon request.*
+  {: .paper-notes}
 
 ### Work in Progress
 
 - **Trade Policy and Clean Energy Transition: Evidence from Ethiopia’s Vehicle Markets**<br>
   <span class="coauthors">with Eyoual Demeke and Kaixin Wang</span>
-  - Supported by Institute for Climate and Sustainable Growth, Development Economics Center at University of Chicago
+  - <span class="paper-funding"><span>Supported by</span><span class="funding-institutions">Institute for Climate and Sustainable Growth, Development Economics Center at the University of Chicago</span></span>
+  {: .paper-notes}
 
 - **The Geography of Clean Technology Diffusion: Evidence from Chinese EVs in Global Markets**<br>
   <span class="coauthors">with Hyuk-soo Kwon, Shaoda Wang, and Yuyang Wang</span>
-  - Supported by Griffin Applied Economics Incubator, Energy Policy Institute at the University of Chicago (EPIC-China)
+  - <span class="paper-funding"><span>Supported by</span><span class="funding-institutions">Griffin Applied Economics Incubator, Energy Policy Institute at the University of Chicago (EPIC-China)</span></span>
+  {: .paper-notes}
 
 - **Psychological Technology of Violence**<br>
   <span class="coauthors">with Louis Dunia, Raul Sanchez de la Sierra, and Hilary Yu</span>
-  - Supported by JPAL/HPI and JPAL/CVI
+  - <span class="paper-funding"><span>Supported by</span><span class="funding-institutions">JPAL/HPI, JPAL/CVI</span></span>
+  {: .paper-notes}
 
 - **The Consequences of Joining Militia**<br>
   <span class="coauthors">with Louis Dunia, Raul Sanchez de la Sierra, and Hilary Yu</span>
-  - Supported by JPAL/HPI and JPAL/CVI
+  - <span class="paper-funding"><span>Supported by</span><span class="funding-institutions">JPAL/HPI, JPAL/CVI</span></span>
+  {: .paper-notes}
 
 - **Measuring State Weakness: Inferring Underlying Legal State Capacity from Buyer Choices**<br>
   <span class="coauthors">with Raul Sanchez de la Sierra and Yuting Chen</span>
