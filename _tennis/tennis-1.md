@@ -60,6 +60,15 @@ highlights:
         width: 3024
         height: 4032
 
+  - id: washington-dc-2022
+    title: "2022 · Washington, D.C."
+    caption: "Watching Emma Raducanu."
+    photos:
+      - path: /images/emma_dc.jpeg
+        alt: "Watching Emma Raducanu play in Washington, D.C. in 2022"
+        width: 666
+        height: 1180
+
   - id: chicago-2021
     title: "2021 · Chicago"
     caption: "With Emma Raducanu, one month before she won the US Open."
