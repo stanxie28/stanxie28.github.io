@@ -55,7 +55,7 @@ redirect_from:
 
 Hello! I am **Haoyang (Stan) Xie**, a fourth-year PhD student in the Kenneth C. Griffin Department of Economics at the University of Chicago. Previously, I was a Research Professional at the Becker Friedman Institute. I received my M.A. from the University of Chicago and my B.A. from Peking University.
 
-My research interests include political economy, environmental economics, and development economics, with a focus on Africa (and its ties with China). 
+My research interests include political economy, environmental economics, and development economics, with a focus on Africa. 
 
 ## Research
 
@@ -96,7 +96,7 @@ My research interests include political economy, environmental economics, and de
   <h2 id="research-highlights">Research Highlights</h2>
   <div class="highlights-grid">
   <article class="research-highlight" aria-labelledby="agents-pulled-over-drivers-often-using-brute-force">
-    <h3 id="agents-pulled-over-drivers-often-using-brute-force">Agents Pulled Over Drivers, Often Using Brute Force</h3>
+    <h3 id="agents-pulled-over-drivers-often-using-brute-force">Drivers who called a powerful "protector" paid less station bribes</h3>
     <figure class="research-figure">
   <a href="{{ '/images/sentiment.png' | relative_url }}" aria-label="View full-size figure: Agents Pulled Over Drivers, Often Using Brute Force">
     <img src="{{ '/images/sentiment.png' | relative_url }}" alt="Research figure on traffic police interactions with drivers and the use of force" width="1883" height="1332" loading="lazy" decoding="async">
@@ -113,14 +113,14 @@ My research interests include political economy, environmental economics, and de
 </figure>
     <p>We conduct a within-individual randomized cash transfer in the Democratic Republic of the Congo’s traffic police agency to study supervisor kickbacks. We present the first evidence of side payments from state officials to their supervisors. Our findings suggest that collusion between supervisors and agents can destroy the benefits of traditional anti-corruption policies.</p>
   </article>
-  <article class="research-highlight" aria-labelledby="decay-of-state-capacity-over-distance">
-    <h3 id="decay-of-state-capacity-over-distance">Decay of State Capacity over Distance</h3>
+  <article class="research-highlight" aria-labelledby="production">
+    <h3 id="production">Anti-Corruption Reshapes Competition for Critical Minerals</h3>
     <figure class="research-figure">
-  <a href="{{ '/images/capacity-figure.png' | relative_url }}" aria-label="View full-size figure: Decay of State Capacity over Distance">
-    <img src="{{ '/images/capacity-figure.png' | relative_url }}" alt="Research figure showing how estimated state capacity varies over distance" width="1428" height="1428" loading="lazy" decoding="async">
+  <a href="{{ '/images/production.png' | relative_url }}" aria-label="View full-size figure: Mineral production and treatment exposure">
+    <img src="{{ '/images/production.png' | relative_url }}" alt="Residualized log mineral production by treatment exposure, before and after anti-corruption" width="1428" height="1428" loading="lazy" decoding="async">
   </a>
 </figure>
-    <p>Motivated by Sanchez de la Sierra (2021), I structurally quantify a measure of state capacity and use it to characterize how state capacity varies over space. Each kilometer away from a state office decreases state capacity by 5%. These findings build on the concept of legal capacity in the theoretical literature and show that state weakness is heterogeneous over space.</p>
+    <p>In countries with weak institutions, access to critical minerals often depends on investors' dealings with public officials. Drawing on evidence from the DRC, this study shows how anti-corruption enforcement reshapes competition among international investors, shifting ownership, mining rights, and production toward investors facing fewer enforcement constraints. This reallocation can sustain production while increasing the environmental costs of extraction.</p>
   </article>
   </div>
 </section>
