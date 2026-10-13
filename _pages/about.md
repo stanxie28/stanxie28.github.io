@@ -95,6 +95,24 @@ My research interests include political economy, environmental economics, and de
 <section class="research-highlights" aria-labelledby="research-highlights">
   <h2 id="research-highlights">Research Highlights</h2>
   <div class="highlights-grid">
+  <article class="research-highlight" aria-labelledby="production">
+    <h3 id="production">Anti-Corruption Reshapes Competition for Critical Minerals</h3>
+    <figure class="research-figure">
+  <a href="{{ '/images/production.png' | relative_url }}" aria-label="View full-size figure: Mineral production and treatment exposure">
+    <img src="{{ '/images/production.png' | relative_url }}" alt="Residualized log mineral production by treatment exposure, before and after anti-corruption" width="1428" height="1428" loading="lazy" decoding="async">
+  </a>
+</figure>
+    <p>In countries with weak institutions, access to critical minerals often depends on investors' dealings with public officials. Drawing on evidence from the DRC, this study shows how anti-corruption enforcement reshapes competition among international investors. This reallocation can sustain production while increasing the environmental costs of extraction.</p>
+  </article>
+  <article class="research-highlight" aria-labelledby="joining-militia-mental-health">
+    <h3 id="joining-militia-mental-health">Joining Militias Improves Mental Health</h3>
+    <figure class="research-figure">
+      <a href="{{ '/images/did.png' | relative_url }}" aria-label="View full-size figure: Joining a militia and psychological distress">
+        <img src="{{ '/images/did.png' | relative_url }}" alt="Specification curve showing negative estimates of the effect of joining a militia on self-reported psychological distress across 36 specifications" width="1750" height="1186" loading="lazy" decoding="async">
+      </a>
+    </figure>
+    <p>We follow militia recruits, villagers, and household members over time to study the consequences of joining an armed group. Recruits experience a reduction in anxiety and depression relative to the comparison groups. </p>
+  </article>
   <article class="research-highlight" aria-labelledby="agents-pulled-over-drivers-often-using-brute-force">
     <h3 id="agents-pulled-over-drivers-often-using-brute-force">Drivers who called a powerful "protector" paid less station bribes</h3>
     <figure class="research-figure">
@@ -112,15 +130,6 @@ My research interests include political economy, environmental economics, and de
   </a>
 </figure>
     <p>We conduct a within-individual randomized cash transfer in the Democratic Republic of the Congo’s traffic police agency to study supervisor kickbacks. We present the first evidence of side payments from state officials to their supervisors. Our findings suggest that collusion between supervisors and agents can destroy the benefits of traditional anti-corruption policies.</p>
-  </article>
-  <article class="research-highlight" aria-labelledby="production">
-    <h3 id="production">Anti-Corruption Reshapes Competition for Critical Minerals</h3>
-    <figure class="research-figure">
-  <a href="{{ '/images/production.png' | relative_url }}" aria-label="View full-size figure: Mineral production and treatment exposure">
-    <img src="{{ '/images/production.png' | relative_url }}" alt="Residualized log mineral production by treatment exposure, before and after anti-corruption" width="1428" height="1428" loading="lazy" decoding="async">
-  </a>
-</figure>
-    <p>In countries with weak institutions, access to critical minerals often depends on investors' dealings with public officials. Drawing on evidence from the DRC, this study shows how anti-corruption enforcement reshapes competition among international investors, shifting ownership, mining rights, and production toward investors facing fewer enforcement constraints. This reallocation can sustain production while increasing the environmental costs of extraction.</p>
   </article>
   </div>
 </section>
