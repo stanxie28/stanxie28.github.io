@@ -5,8 +5,48 @@ permalink: /tennis/
 author_profile: true
 ---
 
-{% include base_path %}
+<style>
+/* Match the homepage's research highlights within the existing tennis layout. */
+.tennis-highlights { container: tennis-highlights / inline-size; color: #000000; border-top: 1px solid #e1e5e8; padding-top: 1.5em; }
+.tennis-highlights .highlights-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 2em 1.6em; }
+.tennis-highlights .tennis-highlight { display: grid; grid-template-rows: auto auto 1fr; align-content: start; min-width: 0; }
+.tennis-highlights .tennis-highlight:nth-child(n + 3) { border-top: 1px solid #e1e5e8; padding-top: 1.6em; }
+.tennis-highlights h2 { margin: 0 0 0.9em; color: #000000; font-family: Georgia, "Times New Roman", serif; font-size: 1.05em; font-weight: 400; line-height: 1.45; text-align: center; }
+.tennis-highlights .tennis-figure { display: grid; grid-template-columns: minmax(0, 1fr); width: 100%; aspect-ratio: 4 / 3; margin: 0; }
+.tennis-highlights .tennis-figure--pair { grid-template-columns: minmax(0, 2fr) minmax(0, 1fr); gap: 0.6em; }
+.tennis-highlights .tennis-figure a { display: block; min-width: 0; min-height: 0; height: 100%; }
+.tennis-highlights .tennis-figure img { display: block; width: 100%; height: 100%; object-fit: contain; margin: 0; padding: 0; border: 0; border-radius: 0; background: #ffffff; }
+.tennis-highlights .tennis-figure a:hover img { box-shadow: none; }
+.tennis-highlights a:focus-visible { outline: 2px solid #000000; outline-offset: 3px; }
+.tennis-highlights .tennis-highlight p { margin: 1.25em 0 0; font-size: 0.88em; line-height: 1.7; }
+@container tennis-highlights (max-width: 540px) {
+  .tennis-highlights .highlights-grid { grid-template-columns: minmax(0, 1fr); }
+  .tennis-highlights .tennis-highlight + .tennis-highlight { border-top: 1px solid #e1e5e8; padding-top: 1.6em; }
+  .tennis-highlights .tennis-highlight p { font-size: 1em; }
+}
+@media (max-width: 600px) {
+  .tennis-highlights .highlights-grid { grid-template-columns: minmax(0, 1fr); }
+  .tennis-highlights .tennis-highlight + .tennis-highlight { border-top: 1px solid #e1e5e8; padding-top: 1.6em; }
+  .tennis-highlights .tennis-highlight p { font-size: 1em; }
+}
+</style>
 
-{% for post in site.tennis reversed %}
-  {% include archive-single.html %}
-{% endfor %}
+<section class="tennis-highlights" aria-label="Tennis highlights">
+  <div class="highlights-grid">
+    {% for post in site.tennis reversed %}
+      {% for highlight in post.highlights %}
+        <article class="tennis-highlight" aria-labelledby="{{ highlight.id }}">
+          <h2 id="{{ highlight.id }}">{{ highlight.title | escape }}</h2>
+          <figure class="tennis-figure{% if highlight.photos.size > 1 %} tennis-figure--pair{% endif %}" aria-describedby="{{ highlight.id }}-caption">
+            {% for photo in highlight.photos %}
+              <a href="{{ photo.path | relative_url }}" aria-label="View full-size photo: {{ photo.alt | escape }}">
+                <img src="{{ photo.path | relative_url }}" alt="{{ photo.alt | escape }}" width="{{ photo.width }}" height="{{ photo.height }}" loading="lazy" decoding="async">
+              </a>
+            {% endfor %}
+          </figure>
+          <p id="{{ highlight.id }}-caption">{{ highlight.caption | escape }}</p>
+        </article>
+      {% endfor %}
+    {% endfor %}
+  </div>
+</section>
