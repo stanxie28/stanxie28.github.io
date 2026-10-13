@@ -71,26 +71,33 @@ My research interests include political economy, environmental economics, and de
 
 - **Corruption and International Competition for Critical Minerals: Evidence from the DRC's Copper-Cobalt Sector**<br>
   <span class="coauthors">with Kaixin Wang</span>
+  - Supported by Energy Policy Institute at the University of Chicago (EPIC-China)
+  - Draft coming soon.
 
 - **The Moral Economy of Supervisor Kickbacks and Its Significance for Corruption**<br>
   <span class="coauthors">with Raul Sanchez de la Sierra, Kristof Titeca, Aimable A. Lameke, and Albert Malukisa Nkuku</span>
-
-- **Measuring State Weakness: Inferring Underlying Legal State Capacity from Buyer Choices**<br>
-  <span class="coauthors">with Raul Sanchez de la Sierra and Yuting Chen</span>
+  - Draft available upon request.
 
 ### Work in Progress
 
 - **Trade Policy and Clean Energy Transition: Evidence from Ethiopia’s Vehicle Markets**<br>
   <span class="coauthors">with Eyoual Demeke and Kaixin Wang</span>
+  - Supported by Institute for Climate and Sustainable Growth, Development Economics Center at University of Chicago
 
 - **The Geography of Clean Technology Diffusion: Evidence from Chinese EVs in Global Markets**<br>
   <span class="coauthors">with Hyuk-soo Kwon, Shaoda Wang, and Yuyang Wang</span>
+  - Supported by Griffin Applied Economics Incubator, Energy Policy Institute at the University of Chicago (EPIC-China)
 
 - **Psychological Technology of Violence**<br>
   <span class="coauthors">with Louis Dunia, Raul Sanchez de la Sierra, and Hilary Yu</span>
+  - Supported by JPAL/HPI and JPAL/CVI
 
 - **The Consequences of Joining Militia**<br>
   <span class="coauthors">with Louis Dunia, Raul Sanchez de la Sierra, and Hilary Yu</span>
+  - Supported by JPAL/HPI and JPAL/CVI
+
+- **Measuring State Weakness: Inferring Underlying Legal State Capacity from Buyer Choices**<br>
+  <span class="coauthors">with Raul Sanchez de la Sierra and Yuting Chen</span>
 
 <section class="research-highlights" aria-labelledby="research-highlights">
   <h2 id="research-highlights">Research Highlights</h2>
