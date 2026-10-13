@@ -7,4 +7,4 @@ redirect_from:
   - /resume
 ---
 
-[CV](../files/StanXie_CV.pdf): Dec 2024
+[CV](../files/StanXie_CV.pdf): Oct 2026
